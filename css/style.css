@@ -1,0 +1,229 @@
+/* General Styles */
+
+:root {
+
+    /* Colores */
+
+    /* Primary */
+    --Strong-cyan: hsl(172, 67%, 45%);
+
+    /* Neutral */
+    --Very-dark-cyan: hsl(183, 100%, 15%);
+    --Dark-grayish-cyan: hsl(186, 14%, 43%);
+    --Grayish-cyan: hsl(184, 14%, 56%);
+    --Light-grayish-cyan: hsl(185, 41%, 84%);
+    --Very-light-grayish-cyan: hsl(189, 41%, 97%);
+    --White: hsl(0, 0%, 100%);
+
+    /* Tipografía */
+    --Space-mono: 'Space Mono', monospace;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: var(--Light-grayish-cyan);
+    gap: 4rem;
+}
+
+.title{
+    color: var(--Very-dark-cyan);
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.card{
+    background-color: var(--White);
+    width: 700px;
+    border-radius: 16px;
+}
+
+.card-container{
+    display: flex;
+    padding: 32px;
+    gap: 32px;
+}
+
+.inputs-section, .outputs-section{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.outputs-section{
+    background-color: var(--Very-dark-cyan);
+    border-radius: 16px;
+    padding: 32px;
+}
+
+.bill-sec,.tip-sec,.people-sec{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.inputs-section{
+    gap: 32px;
+}
+
+label{
+    color: var(--Very-dark-cyan);
+    font-size: 14px;
+}
+
+.bill-input, .people-input{
+    position: relative;
+}
+
+.bill-input input, .people-input input{
+    width: 100%;
+    text-align: end;
+    padding: 8px;
+    font-size: 19.2px;
+    color: var(--Very-dark-cyan);
+    background-color: var(--Very-light-grayish-cyan);
+    outline-color: var(--Strong-cyan);
+}
+
+.bill-input img, .people-input img{
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    transform: translate(-50%, -50%);
+}
+
+.tip-btns{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 16px;
+}
+
+.tip-btns button{
+    width: 90px;
+    color: var(--White);
+    background-color: var(--Very-dark-cyan);
+    padding: 8px;
+    cursor: pointer;
+    border-radius: 7px;
+    font-size: 17.6px;
+}
+
+.tip-btns button:hover{
+    background-color: var(--Strong-cyan);
+    color: var(--Very-dark-cyan);
+}
+
+.selected{
+    background-color: var(--Strong-cyan) !important;
+    color: var(--Very-dark-cyan) !important;
+}
+
+.tip-btns input{
+    width: 90px;
+    padding: 8px;
+    text-align: center;
+    font-size: 16px;
+    background-color: var(--Very-light-grayish-cyan);
+    border-radius: 7px;
+    outline-color: var(--Strong-cyan);
+}
+
+.outputs-section{
+    gap: 32px;
+}
+
+.tip-amount, .total{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.tip-amount p, .total p{
+    color: var(--White);
+}
+
+.tip-amount h2, .total h2{
+    color: var(--Strong-cyan);
+    font-size: 32px;
+}
+
+.tip-amount span, .total span{
+    font-size: 12px;
+    color: var(--Grayish-cyan);
+}
+
+.reset-btn{
+    margin-top: auto;
+    padding: 8px;
+    text-transform: uppercase;
+    background-color: var(--Strong-cyan);
+    border-radius: 4px;
+    cursor: pointer;
+    color: var(--Very-dark-cyan);
+    opacity: 40%;
+}
+
+.reset-btn:hover{
+    opacity: 100%;
+}
+
+.attribution{
+    text-align: center;
+    color: var(--Very-dark-cyan);
+}
+
+@media screen and (max-width: 750px) {
+    
+    body{
+        align-items: center;
+        justify-content: flex-start;
+        padding-top: 32px;
+        gap: 0;
+    }
+
+    .logo{
+        padding: 30px;
+    }
+
+    .inputs-section, .outputs-section{
+        width: 100%;
+    }
+
+    .card{
+        width: 100%;
+        margin-top: auto;
+    }
+
+    .card-container{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .tip-btns{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .tip-btns div button{
+        width: 130px;
+    }
+
+    .tip-btns input{
+        width: 130px;
+    }
+
+    .tip-btns div{
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    .attribution{
+        padding: 1.25rem;
+    }
+
+}
