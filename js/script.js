@@ -6,10 +6,11 @@ const billTotalPerPerson = document.getElementById("total");
 const resetButton = document.getElementById("resetBtn");
 const buttons = document.querySelectorAll(".tip-btns button");
 
-buttons.forEach((button) =>  {
+//Calculate Tip When Click On Tip Percentage Button
+buttons.forEach((button) => {
     button.addEventListener("click", (e) => {
-        let tipvalue=e.target.innerText;
-        tipvalue=tipvalue.substr(0,tipvalue.lenght -1);
+        let tipvalue = e.target.innerText;
+        tipvalue = tipvalue.substr(0, tipvalue.length - 1);
 
         if (billAmount.value === "") return;
         if (numberOfPeople.value === "") numberOfPeople.value = 1;
@@ -19,45 +20,44 @@ buttons.forEach((button) =>  {
             parseInt(tipvalue),
             parseInt(numberOfPeople.value)
         );
-    })
-})
+    });
+});
 
+//Calculate Tip When User Give Custom Tip Percentage Input
 customTipPercentage.addEventListener("blur", (e) => {
-    
-    if(billAmount.value === ""){
-        resetEveryThing();
+    if (billAmount.value === "") {
+        resetEverything();
         return;
     }
 
-    if (numberOfPeople.value === "") numberOfPeople.value = 1; 
+    if (numberOfPeople.value === "") numberOfPeople.value = 1;
+
     calculateTip(
         parseFloat(billAmount.value),
         parseFloat(e.target.value),
         parseInt(numberOfPeople.value)
     );
+});
 
-})
-
+//Calculate Tip
 function calculateTip(billAmount, tipPercentage, numberOfPeople) {
-
     let tipAmount = (billAmount * (tipPercentage / 100)) / numberOfPeople;
-    let tip = Math.florr(tipAmount * 100) / 100;
-    tip = tip.toFixed(2);
-
-    let totalAmount = (tipAmount * numberOfPeople + billAmount) / numberOfPeople
+    let tip = Math.floor(tipAmount * 100) / 100;
+    tip = tip.toFixed(2);   
+    
+    let totalAmount = (tipAmount * numberOfPeople + billAmount) / numberOfPeople;
     totalAmount = totalAmount.toFixed(2);
 
-    billTipAmount.innerHTML = `${tip}`;
-    billTotalPerPerson.innerHTML = `${totalAmount}`;
-
+    billTipAmount.innerHTML = `$${tip}`;
+    billTotalPerPerson.innerHTML = `$${totalAmount}`;
 }
 
-resetButton.addEventListener("click", resetEveryThing);
-
-function resetEveryThing() {
+//Reset Everything
+resetButton.addEventListener("click", resetEverything);
+function resetEverything() {
     billTipAmount.innerHTML = "$0.00";
     billTotalPerPerson.innerHTML = "$0.00";
-    billAmount.value = ""
-    numberOfPeople.value = ""
-    customTipPercentage.value = ""
+    billAmount.value = "";
+    numberOfPeople.value = "";
+    customTipPercentage.value = "";
 }

@@ -222,8 +222,10 @@ label{
         gap: 16px;
     }
 
-    .attribution{
+    footer{
+        width: 100%;
         padding: 1.25rem;
+        background-color: var(--White);
     }
 
 }
