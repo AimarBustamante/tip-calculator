@@ -30,6 +30,11 @@ Your users should be able to:
 - CSS
 - JavaScript
 
+### Links
+
+- [Solution](https://www.frontendmentor.io/solutions/tip-calculator-solution-nngrOoxPHe)
+- [Live Site](https://aimarbustamante.github.io/tip-calculator-app/)
+
 ## Color Reference
 
 ### Primary
