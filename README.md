@@ -1,8 +1,8 @@
-# Frontend Mentor - Tip calculator app
+# 🤑 Frontend Mentor - Tip calculator app
 
 ![Design preview for the Tip calculator app coding challenge](./design/desktop-preview.jpg)
 
-## Welcome! 👋🏻
+## 👋🏻 Welcome! 
 
 Thanks for checking out this front-end coding challenge.
 
@@ -10,7 +10,7 @@ Thanks for checking out this front-end coding challenge.
 
 **To do this challenge, you need a basic understanding of HTML, CSS and JavaScript.**
 
-## The challenge
+## 💻 The challenge
 
 Your challenge is to build out this tip calculator app and get it looking as close to the design as possible.
 
@@ -22,7 +22,7 @@ Your users should be able to:
 - See hover states for all interactive elements on the page
 - Calculate the correct tip and total cost of the bill per person
 
-## My process
+## 🚧 My process
 
 ### Built with
 
@@ -35,7 +35,7 @@ Your users should be able to:
 - [Solution](https://www.frontendmentor.io/solutions/tip-calculator-solution-nngrOoxPHe)
 - [Live Site](https://aimarbustamante.github.io/tip-calculator-app/)
 
-## Color Reference
+## 🎨 Color Reference
 
 ### Primary
 
@@ -54,7 +54,7 @@ Your users should be able to:
 | Very light grayish cyan | ![#f4fafa](https://via.placeholder.com/10/f4fafa?text=+) #f4fafa |
 | White | ![#ffffff](https://via.placeholder.com/10/ffffff?text=+) #ffffff |
 
-## Contact
+## 📫 Contact
 
 [![My_Portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://aimarbusta.netlify.app/)
 [![LinkedIn](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/aimarbustamante/)
