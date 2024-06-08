@@ -26,9 +26,9 @@ Your users should be able to:
 
 ### Built with
 
-- HTML
-- CSS
-- JavaScript
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
 
 ### Links
 
@@ -39,21 +39,26 @@ Your users should be able to:
 
 ### Primary
 
-- Strong cyan: `hsl(172, 67%, 45%)`
+| Color             | Hex                                                                |
+| ----------------- | ------------------------------------------------------------------ |
+| Strong cyan | ![#26c0ab](https://via.placeholder.com/10/26c0ab?text=+) #26c0ab |
 
 ### Neutral
 
-- Very dark cyan: `hsl(183, 100%, 15%)`
-- Dark grayish cyan: `hsl(186, 14%, 43%)`
-- Grayish cyan: `hsl(184, 14%, 56%)`
-- Light grayish cyan: `hsl(185, 41%, 84%)`
-- Very light grayish cyan: `hsl(189, 41%, 97%)`
-- White: `hsl(0, 0%, 100%)`
+| Color             | Hex                                                                |
+| ----------------- | ------------------------------------------------------------------ |
+| Very dark cyan | ![#00494d](https://via.placeholder.com/10/00494d?text=+) #00494d |
+| Dark grayish cyan | ![#248691](https://via.placeholder.com/10/248691?text=+) #248691 |
+| Grayish cyan | ![#246b70](https://via.placeholder.com/10/246b70?text=+) #246b70 |
+| Light grayish cyan | ![#c5e4e7](https://via.placeholder.com/10/c5e4e7?text=+) #c5e4e7 |
+| Very light grayish cyan | ![#f4fafa](https://via.placeholder.com/10/f4fafa?text=+) #f4fafa |
+| White | ![#ffffff](https://via.placeholder.com/10/ffffff?text=+) #ffffff |
 
 ## Contact
 
-- [Portfolio](https://aimarbusta.netlify.app/)
-- [Frontend Mentor](https://www.frontendmentor.io/profile/AimarBustamante)
-- [Twitter](https://twitter.com/aimarBusta)
-- [Instagram](https://www.instagram.com/aimarbusta.dev/)
-- [LinkedIn](https://www.linkedin.com/in/aimarbustamante/)
+[![My_Portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://aimarbusta.netlify.app/)
+[![LinkedIn](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/aimarbustamante/)
+[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/aimarbusta.dev/) 
+[![Email](https://img.shields.io/badge/Microsoft_Outlook-0078D4?style=for-the-badge&logo=microsoft-outlook&logoColor=white)](mailto:aimarbustamante379@hotmail.com) 
+[![WhatsApp](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/65167602) 
+[![Frontend_Mentor](https://img.shields.io/badge/Frontend_Mentor-3F54A3?style=for-the-badge&logo=frontendmentor&logoColor=white)](https://www.frontendmentor.io/profile/AimarBustamante) 
